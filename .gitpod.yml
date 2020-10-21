@@ -1,0 +1,22 @@
+tasks:
+  - init:    echo "Replace me with a build script for the project."
+    command: echo "Replace me with something that should run on every start, or just remove me entirely."
+
+# Dockerfile borrowed from https://github.com/forcedotcom/vscode-remote-try-sfdx/blob/master/.devcontainer/Dockerfile
+image:
+  file: .gitpod.Docker
+
+# See here for reference : https://github.com/forcedotcom/vscode-remote-try-sfdx/blob/master/.devcontainer/devcontainer.json
+# Gitpod equivalent to SFDX VS Code remote development, VS code extensions
+vscode:
+  extensions:
+    - salesforce.salesforcedx-vscode@48.16.0:vLu13WqhCXKGhh0YpzeZZA==
+    - salesforce.salesforcedx-vscode-apex-replay-debugger@48.16.0:FucSxOENqBU7fqblXvDwRg==
+    - salesforce.salesforcedx-vscode-apex-debugger@48.16.0:tMPgnL6WmEopf4lm3eqeyQ==
+    - salesforce.salesforcedx-vscode-core@48.16.0:89dLoqo8QS0SMl35OGbCeQ==
+    - salesforce.salesforcedx-vscode-visualforce@48.16.0:5d6musT54jdLrLl+Mc20yQ==
+    - salesforce.salesforcedx-vscode-apex@48.16.0:dKpgUjCxBcj44Rf+HgHN/w==
+    - dbaeumer.vscode-eslint@2.1.5:9Wg0Glx/TwD8ElFBg+FKcQ==
+    - salesforce.salesforcedx-vscode-lightning@48.16.0:vg+fiApHuTi3Pt7V+qrb2Q==
+    - esbenp.prettier-vscode@4.7.0:kgoYSh1LwTixKtJtQWtodQ==
+    - redhat.vscode-xml@0.11.0:UisfuLs/74cHN6OonFG4YA==
