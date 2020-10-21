@@ -3,8 +3,7 @@ tasks:
     command: echo "Replace me with something that should run on every start, or just remove me entirely."
 
 # Dockerfile borrowed from https://github.com/forcedotcom/vscode-remote-try-sfdx/blob/master/.devcontainer/Dockerfile
-image:
-  file: .gitpod.Dockerfile
+image: salesforce/salesforcedx:latest-slim
 
 # See here for reference : https://github.com/forcedotcom/vscode-remote-try-sfdx/blob/master/.devcontainer/devcontainer.json
 # Gitpod equivalent to SFDX VS Code remote development, VS code extensions
