@@ -4,7 +4,7 @@ tasks:
 
 # Dockerfile borrowed from https://github.com/forcedotcom/vscode-remote-try-sfdx/blob/master/.devcontainer/Dockerfile
 image:
-  file: .gitpod.Docker
+  file: .gitpod.Dockerfile
 
 # See here for reference : https://github.com/forcedotcom/vscode-remote-try-sfdx/blob/master/.devcontainer/devcontainer.json
 # Gitpod equivalent to SFDX VS Code remote development, VS code extensions
